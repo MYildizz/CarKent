@@ -30,7 +30,7 @@
 - **Datas Panel** <br/>
 - In hear, customers datas can be seen detailed.
 
-![Datas panel error !](https://github.com/MYildizz/CarKent/blob/master/CarKent%20-%20Finish/pictures/datas.png)
+![Datas panel error !](https://github.com/MYildizz/CarKent/blob/master/CarKent%20-%20Finish/pictures/datas.png) <hr/>
 
 - **Statictics Panel** <br/>
 - In hear , Envantory ınformations can be seen
