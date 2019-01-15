@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Repair">
+  <ClassDiagramComponents>
+    <Class name="DieselCar" package="Repair" visibility="publıc" xPosition="13.0" yPosition="20.0">
+      <Fields>
+        <Field name="DamageSide" type="ArrayList&lt;String&gt;" visibility="prıvate"/>
+        <Field name="personalty" type="Personality" visibility="prıvate"/>
+        <Field name="prize" type="double" visibility="prıvate"/>
+        <Field name="account" type="double" visibility="prıvate"/>
+        <Field name="kdv" type="double" visibility="prıvate"/>
+        <Field name="Damage" type="int" visibility="prıvate"/>
+        <Field name="Empty_Material" type="String" visibility="publıc"/>
+        <Field name="Special" type="boolean" visibility="prıvate"/>
+        <Field name="CountFemale" type="int" visibility="prıvate" isStatic="true"/>
+        <Field name="CountMale" type="int" visibility="prıvate" isStatic="true"/>
+        <Field name="CountDiesel" type="int" visibility="prıvate" isStatic="true"/>
+        <Field name="Dbattery" type="int" visibility="publıc" isStatic="true"/>
+        <Field name="Dengine" type="int" visibility="publıc" isStatic="true"/>
+        <Field name="DGearBox" type="int" visibility="publıc" isStatic="true"/>
+        <Field name="DRadiator" type="int" visibility="publıc" isStatic="true"/>
+        <Field name="Dfuel" type="int" visibility="publıc" isStatic="true"/>
+        <Field name="SpentDbattery" type="int" visibility="prıvate" isStatic="true"/>
+        <Field name="SpentDengine" type="int" visibility="prıvate" isStatic="true"/>
+        <Field name="SpentDGearBox" type="int" visibility="prıvate" isStatic="true"/>
+        <Field name="SpentDRadiator" type="int" visibility="prıvate" isStatic="true"/>
+        <Field name="SpentDFuel" type="int" visibility="prıvate" isStatic="true"/>
+        <Field name="SpentTire" type="int" visibility="prıvate" isStatic="true"/>
+        <Field name="SpentSeat" type="int" visibility="prıvate" isStatic="true"/>
+        <Field name="Spentwindow" type="int" visibility="prıvate" isStatic="true"/>
+        <Field name="Spentrim" type="int" visibility="prıvate" isStatic="true"/>
+        <Field name="Spentheadlight" type="int" visibility="prıvate" isStatic="true"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="publıc">
+          <Argument type="String" name="name"/>
+          <Argument type="String" name="surname"/>
+          <Argument type="String" name="TC"/>
+          <Argument type="String" name="Profession"/>
+          <Argument type="String" name="Gender"/>
+          <Argument type="String" name="Model"/>
+          <Argument type="String" name="ID"/>
+          <Argument type="boolean" name="special"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="faultDetection" returnType="String" visibility="publıc"/>
+        <Method name="getPrice" returnType="double" visibility="publıc"/>
+        <Method name="Repair_Car" returnType="boolean" visibility="publıc"/>
+        <Method name="statisticsUsed" returnType="String" visibility="publıc"/>
+        <Method name="staticticOfAdvertisement" returnType="String" visibility="protected"/>
+        <Method name="Reset" returnType="void" visibility="publıc"/>
+        <Method name="getCountFemale" returnType="int" visibility="publıc" isStatic="true"/>
+        <Method name="getCountMale" returnType="int" visibility="publıc" isStatic="true"/>
+        <Method name="getCountDiesel" returnType="int" visibility="publıc" isStatic="true"/>
+        <Method name="getDamage" returnType="int" visibility="publıc"/>
+        <Method name="gettPrize" returnType="double" visibility="publıc"/>
+        <Method name="getSpentDbattery" returnType="int" visibility="publıc" isStatic="true"/>
+        <Method name="getSpentDengine" returnType="int" visibility="publıc" isStatic="true"/>
+        <Method name="getSpentDGearBox" returnType="int" visibility="publıc" isStatic="true"/>
+        <Method name="getSpentDRadiator" returnType="int" visibility="publıc" isStatic="true"/>
+        <Method name="getSpentDFuel" returnType="int" visibility="publıc" isStatic="true"/>
+        <Method name="getSpentTire" returnType="int" visibility="publıc" isStatic="true"/>
+        <Method name="getSpentSeat" returnType="int" visibility="publıc" isStatic="true"/>
+        <Method name="getSpentwindow" returnType="int" visibility="publıc" isStatic="true"/>
+        <Method name="getSpentrim" returnType="int" visibility="publıc" isStatic="true"/>
+        <Method name="getSpentheadlight" returnType="int" visibility="publıc" isStatic="true"/>
+        <Method name="getDbattery" returnType="int" visibility="publıc" isStatic="true"/>
+        <Method name="getDengine" returnType="int" visibility="publıc" isStatic="true"/>
+        <Method name="getDGearBox" returnType="int" visibility="publıc" isStatic="true"/>
+        <Method name="getDRadiator" returnType="int" visibility="publıc" isStatic="true"/>
+        <Method name="getDfuel" returnType="int" visibility="publıc" isStatic="true"/>
+        <Method name="toString" returnType="String" visibility="publıc"/>
+      </Methods>
+    </Class>
+    <Class name="ElectricCar" package="Repair" visibility="publıc" xPosition="54.0" yPosition="1197.0">
+      <Fields>
+        <Field name="DamageSide" type="ArrayList&lt;String&gt;" visibility="prıvate"/>
+        <Field name="personalty" type="Personality" visibility="prıvate"/>
+        <Field name="prize" type="double" visibility="prıvate"/>
+        <Field name="account" type="double" visibility="prıvate"/>
+        <Field name="kdv" type="double" visibility="prıvate"/>
+        <Field name="Damage" type="int" visibility="prıvate"/>
+        <Field name="Special" type="boolean" visibility="prıvate"/>
+        <Field name="Empty_Material" type="String" visibility="publıc"/>
+        <Field name="CountFemale" type="int" visibility="prıvate" isStatic="true"/>
+        <Field name="CountMale" type="int" visibility="prıvate" isStatic="true"/>
+        <Field name="CountElectric" type="int" visibility="prıvate" isStatic="true"/>
+        <Field name="Ebattery" type="int" visibility="publıc" isStatic="true"/>
+        <Field name="Eengine" type="int" visibility="publıc" isStatic="true"/>
+        <Field name="EGearBox" type="int" visibility="publıc" isStatic="true"/>
+        <Field name="ERadiator" type="int" visibility="publıc" isStatic="true"/>
+        <Field name="EChargebattery" type="int" visibility="publıc" isStatic="true"/>
+        <Field name="SpentEbattery" type="int" visibility="prıvate" isStatic="true"/>
+        <Field name="SpentEengine" type="int" visibility="prıvate" isStatic="true"/>
+        <Field name="SpentEGearBox" type="int" visibility="prıvate" isStatic="true"/>
+        <Field name="SpentERadiator" type="int" visibility="prıvate" isStatic="true"/>
+        <Field name="SpentEChargeBattery" type="int" visibility="prıvate" isStatic="true"/>
+        <Field name="SpentTire" type="int" visibility="prıvate" isStatic="true"/>
+        <Field name="SpentSeat" type="int" visibility="prıvate" isStatic="true"/>
+        <Field name="Spentwindow" type="int" visibility="prıvate" isStatic="true"/>
+        <Field name="Spentrim" type="int" visibility="prıvate" isStatic="true"/>
+        <Field name="Spentheadlight" type="int" visibility="prıvate" isStatic="true"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="publıc">
+          <Argument type="String" name="name"/>
+          <Argument type="String" name="surname"/>
+          <Argument type="String" name="TC"/>
+          <Argument type="String" name="Profession"/>
+          <Argument type="String" name="Gender"/>
+          <Argument type="String" name="Model"/>
+          <Argument type="String" name="ID"/>
+          <Argument type="boolean" name="special"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="faultDetection" returnType="String" visibility="publıc"/>
+        <Method name="getPrice" returnType="double" visibility="publıc"/>
+        <Method name="Repair_Car" returnType="boolean" visibility="publıc"/>
+        <Method name="statisticsUsed" returnType="String" visibility="publıc"/>
+        <Method name="staticticOfAdvertisement" returnType="String" visibility="protected"/>
+        <Method name="Reset" returnType="void" visibility="publıc"/>
+        <Method name="getCountFemale" returnType="int" visibility="publıc" isStatic="true"/>
+        <Method name="getCountMale" returnType="int" visibility="publıc" isStatic="true"/>
+        <Method name="getCountElectric" returnType="int" visibility="publıc" isStatic="true"/>
+        <Method name="getDamage" returnType="int" visibility="publıc"/>
+        <Method name="gettPrize" returnType="double" visibility="publıc"/>
+        <Method name="getEbattery" returnType="int" visibility="publıc" isStatic="true"/>
+        <Method name="getEengine" returnType="int" visibility="publıc" isStatic="true"/>
+        <Method name="getEGearBox" returnType="int" visibility="publıc" isStatic="true"/>
+        <Method name="getERadiator" returnType="int" visibility="publıc" isStatic="true"/>
+        <Method name="getEChargebattery" returnType="int" visibility="publıc" isStatic="true"/>
+        <Method name="getSpentEbattery" returnType="int" visibility="publıc" isStatic="true"/>
+        <Method name="getSpentEengine" returnType="int" visibility="publıc" isStatic="true"/>
+        <Method name="getSpentEGearBox" returnType="int" visibility="publıc" isStatic="true"/>
+        <Method name="getSpentERadiator" returnType="int" visibility="publıc" isStatic="true"/>
+        <Method name="getSpentEChargeBattery" returnType="int" visibility="publıc" isStatic="true"/>
+        <Method name="getSpentTire" returnType="int" visibility="publıc" isStatic="true"/>
+        <Method name="getSpentSeat" returnType="int" visibility="publıc" isStatic="true"/>
+        <Method name="getSpentwindow" returnType="int" visibility="publıc" isStatic="true"/>
+        <Method name="getSpentrim" returnType="int" visibility="publıc" isStatic="true"/>
+        <Method name="getSpentheadlight" returnType="int" visibility="publıc" isStatic="true"/>
+        <Method name="toString" returnType="String" visibility="publıc"/>
+      </Methods>
+    </Class>
+    <Class name="GasolineCar" package="Repair" visibility="publıc" xPosition="831.0" yPosition="1129.0">
+      <Fields>
+        <Field name="DamageSide" type="ArrayList&lt;String&gt;" visibility="prıvate"/>
+        <Field name="personalty" type="Personality" visibility="prıvate"/>
+        <Field name="prize" type="double" visibility="prıvate"/>
+        <Field name="kdv" type="double" visibility="prıvate"/>
+        <Field name="account" type="double" visibility="prıvate"/>
+        <Field name="Damage" type="int" visibility="prıvate"/>
+        <Field name="Special" type="boolean" visibility="prıvate"/>
+        <Field name="Empty_Material" type="String" visibility="publıc"/>
+        <Field name="CountFemale" type="int" visibility="prıvate" isStatic="true"/>
+        <Field name="CountMale" type="int" visibility="prıvate" isStatic="true"/>
+        <Field name="CountGasoline" type="int" visibility="prıvate" isStatic="true"/>
+        <Field name="Gbattery" type="int" visibility="publıc" isStatic="true"/>
+        <Field name="Gengine" type="int" visibility="publıc" isStatic="true"/>
+        <Field name="GGearBox" type="int" visibility="publıc" isStatic="true"/>
+        <Field name="GRadiator" type="int" visibility="publıc" isStatic="true"/>
+        <Field name="Gfuel" type="int" visibility="publıc" isStatic="true"/>
+        <Field name="SpentGbattery" type="int" visibility="prıvate" isStatic="true"/>
+        <Field name="SpentGengine" type="int" visibility="prıvate" isStatic="true"/>
+        <Field name="SpentGGearBox" type="int" visibility="prıvate" isStatic="true"/>
+        <Field name="SpentGRadiator" type="int" visibility="prıvate" isStatic="true"/>
+        <Field name="SpentGFuel" type="int" visibility="prıvate" isStatic="true"/>
+        <Field name="SpentTire" type="int" visibility="prıvate" isStatic="true"/>
+        <Field name="SpentSeat" type="int" visibility="prıvate" isStatic="true"/>
+        <Field name="Spentwindow" type="int" visibility="prıvate" isStatic="true"/>
+        <Field name="Spentrim" type="int" visibility="prıvate" isStatic="true"/>
+        <Field name="Spentheadlight" type="int" visibility="prıvate" isStatic="true"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="publıc">
+          <Argument type="String" name="name"/>
+          <Argument type="String" name="surname"/>
+          <Argument type="String" name="TC"/>
+          <Argument type="String" name="Profession"/>
+          <Argument type="String" name="Gender"/>
+          <Argument type="String" name="Model"/>
+          <Argument type="String" name="ID"/>
+          <Argument type="boolean" name="special"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="faultDetection" returnType="String" visibility="publıc"/>
+        <Method name="getPrice" returnType="double" visibility="publıc"/>
+        <Method name="Repair_Car" returnType="boolean" visibility="publıc"/>
+        <Method name="statisticsUsed" returnType="String" visibility="publıc"/>
+        <Method name="staticticOfAdvertisement" returnType="String" visibility="protected"/>
+        <Method name="Reset" returnType="void" visibility="publıc"/>
+        <Method name="getCountFemale" returnType="int" visibility="publıc" isStatic="true"/>
+        <Method name="getCountMale" returnType="int" visibility="publıc" isStatic="true"/>
+        <Method name="getCountGasoline" returnType="int" visibility="publıc" isStatic="true"/>
+        <Method name="getDamage" returnType="int" visibility="publıc"/>
+        <Method name="gettPrize" returnType="double" visibility="publıc"/>
+        <Method name="getGbattery" returnType="int" visibility="publıc" isStatic="true"/>
+        <Method name="getGengine" returnType="int" visibility="publıc" isStatic="true"/>
+        <Method name="getGGearBox" returnType="int" visibility="publıc" isStatic="true"/>
+        <Method name="getGRadiator" returnType="int" visibility="publıc" isStatic="true"/>
+        <Method name="getGfuel" returnType="int" visibility="publıc" isStatic="true"/>
+        <Method name="getSpentGbattery" returnType="int" visibility="publıc" isStatic="true"/>
+        <Method name="getSpentGengine" returnType="int" visibility="publıc" isStatic="true"/>
+        <Method name="getSpentGGearBox" returnType="int" visibility="publıc" isStatic="true"/>
+        <Method name="getSpentGRadiator" returnType="int" visibility="publıc" isStatic="true"/>
+        <Method name="getSpentGFuel" returnType="int" visibility="publıc" isStatic="true"/>
+        <Method name="getSpentTire" returnType="int" visibility="publıc" isStatic="true"/>
+        <Method name="getSpentSeat" returnType="int" visibility="publıc" isStatic="true"/>
+        <Method name="getSpentwindow" returnType="int" visibility="publıc" isStatic="true"/>
+        <Method name="getSpentrim" returnType="int" visibility="publıc" isStatic="true"/>
+        <Method name="getSpentheadlight" returnType="int" visibility="publıc" isStatic="true"/>
+        <Method name="toString" returnType="String" visibility="publıc"/>
+      </Methods>
+    </Class>
+    <Class name="Repair" package="Repair" visibility="publıc" isAbstract="true" xPosition="1060.0" yPosition="462.0">
+      <Fields>
+        <Field name="Model" type="String" visibility="prıvate"/>
+        <Field name="MaxCar" type="int" visibility="prıvate" isStatic="true" isFinal="true"/>
+        <Field name="TotalCar" type="int" visibility="prıvate" isStatic="true"/>
+        <Field name="CountFemale" type="int" visibility="protected" isStatic="true"/>
+        <Field name="CountMale" type="int" visibility="protected" isStatic="true"/>
+        <Field name="Tire" type="int" visibility="publıc" isStatic="true"/>
+        <Field name="Seat" type="int" visibility="publıc" isStatic="true"/>
+        <Field name="window" type="int" visibility="publıc" isStatic="true"/>
+        <Field name="rim" type="int" visibility="publıc" isStatic="true"/>
+        <Field name="headlight" type="int" visibility="publıc" isStatic="true"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="publıc">
+          <Argument type="String" name="model"/>
+          <Argument type="String" name="ID"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="Reset" returnType="void" visibility="publıc"/>
+        <Method name="getTire" returnType="int" visibility="publıc" isStatic="true"/>
+        <Method name="getSeat" returnType="int" visibility="publıc" isStatic="true"/>
+        <Method name="getWindow" returnType="int" visibility="publıc" isStatic="true"/>
+        <Method name="getRim" returnType="int" visibility="publıc" isStatic="true"/>
+        <Method name="getHeadlight" returnType="int" visibility="publıc" isStatic="true"/>
+        <Method name="getModel" returnType="String" visibility="publıc"/>
+        <Method name="getCountFemale" returnType="int" visibility="publıc" isStatic="true"/>
+        <Method name="getCountMale" returnType="int" visibility="publıc" isStatic="true"/>
+        <Method name="faultDetection" returnType="String" visibility="publıc" isAbstract="true"/>
+        <Method name="Repair_Car" returnType="boolean" visibility="publıc" isAbstract="true"/>
+        <Method name="getPrice" returnType="double" visibility="publıc"/>
+      </Methods>
+    </Class>
+    <Interface name="IRepair" package="Repair" visibility="publıc" xPosition="1135.0" yPosition="246.0">
+      <Methods>
+        <Method name="Reset" returnType="void" visibility="package"/>
+      </Methods>
+    </Interface>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <IsRelation name="is" source="Repair.ElectricCar" target="Repair.Repair"/>
+    <IsRelation name="is" source="Repair.DieselCar" target="Repair.Repair"/>
+    <IsRelation name="is" source="Repair.GasolineCar" target="Repair.Repair"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="Repair.Repair" target="Repair.IRepair"/>
+  </ClassDiagramRelations>
+</ClassDiagram>

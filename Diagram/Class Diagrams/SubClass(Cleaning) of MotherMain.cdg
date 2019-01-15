@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Clean">
+  <ClassDiagramComponents>
+    <Class name="Cleaning" package="Clean" visibility="publıc" xPosition="20.0" yPosition="20.0">
+      <Fields>
+        <Field name="total_water_and_Foam" type="int" visibility="protected" isStatic="true"/>
+        <Field name="total_wax_quantity" type="int" visibility="protected" isStatic="true"/>
+        <Field name="sales" type="int" visibility="protected" isStatic="true"/>
+        <Field name="consume_wax" type="int" visibility="protected" isStatic="true"/>
+        <Field name="consume_WaF" type="int" visibility="protected" isStatic="true"/>
+        <Field name="total_Cleaning" type="int" visibility="protected" isStatic="true"/>
+        <Field name="Cleaning_Male" type="int" visibility="protected" isStatic="true"/>
+        <Field name="Cleaning_Female" type="int" visibility="protected" isStatic="true"/>
+        <Field name="person" type="Personality" visibility="protected"/>
+        <Field name="VehicleType" type="String" visibility="prıvate"/>
+        <Field name="price" type="double" visibility="publıc"/>
+        <Field name="typeOfwashing" type="String" visibility="publıc"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="publıc">
+          <Argument type="String" name="ID"/>
+          <Argument type="String" name="name"/>
+          <Argument type="String" name="surname"/>
+          <Argument type="String" name="identity"/>
+          <Argument type="String" name="profession"/>
+          <Argument type="String" name="gender"/>
+          <Argument type="String" name="car"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getCleaning_Male" returnType="int" visibility="publıc" isStatic="true"/>
+        <Method name="getCleaning_Female" returnType="int" visibility="publıc" isStatic="true"/>
+        <Method name="getVehicleType" returnType="String" visibility="publıc"/>
+        <Method name="getPerson" returnType="Personality" visibility="publıc"/>
+        <Method name="getPrice" returnType="double" visibility="publıc"/>
+        <Method name="getTypeOfwashing" returnType="String" visibility="publıc"/>
+        <Method name="DecidePriceAccordingtoCarType" returnType="double" visibility="publıc" isStatic="true">
+          <Argument type="String" name="car"/>
+          <Argument type="String" name="profession"/>
+          <Argument type="boolean" name="condition"/>
+          <Argument type="boolean" name="interior_wash"/>
+          <Argument type="boolean" name="exterior_wash"/>
+          <Argument type="boolean" name="auto_Hairdresser"/>
+          <Argument type="boolean" name="wax_polish"/>
+        </Method>
+        <Method name="getTotal_water_and_Foam" returnType="int" visibility="publıc" isStatic="true"/>
+        <Method name="getTotal_wax_quantity" returnType="int" visibility="publıc" isStatic="true"/>
+        <Method name="getConsume_wax" returnType="int" visibility="publıc" isStatic="true"/>
+        <Method name="getConsume_WaF" returnType="int" visibility="publıc" isStatic="true"/>
+        <Method name="getMaterial_WaF" returnType="double" visibility="publıc" isStatic="true"/>
+        <Method name="getMaterial_WaX" returnType="double" visibility="publıc" isStatic="true"/>
+        <Method name="AddtoCase" returnType="void" visibility="publıc" isStatic="true"/>
+        <Method name="staticticOfAdvertisement" returnType="String" visibility="protected"/>
+        <Method name="statisticsUsed" returnType="String" visibility="publıc"/>
+        <Method name="toString" returnType="String" visibility="publıc"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>

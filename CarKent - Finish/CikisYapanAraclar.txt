@@ -1,0 +1,30 @@
+﻿    Parking Customer 
+ Plate : 1
+ CarParkingArea : A28L
+ Enteringtime : 20:07:35
+ Name : 1111
+ Surname : 1
+ TC : 1
+ Labour :TEACHER
+ Gender : Male
+**********************************************
+    Parking Customer 
+ Plate : 11
+ CarParkingArea : A28L
+ Enteringtime : 20:09:10
+ Name : yeni
+ Surname : müsteri
+ TC : geldi
+ Labour :TEACHER
+ Gender : Male
+**********************************************
+    Parking Customer 
+ Plate : asdasd
+ CarParkingArea : A28L
+ Enteringtime : 20:12:40
+ Name : asd
+ Surname : asd
+ TC : asd
+ Labour :TEACHER
+ Gender : Male
+**********************************************

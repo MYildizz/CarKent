@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Personality">
+  <ClassDiagramComponents>
+    <Class name="Personality" package="Common_Classes" visibility="publıc" xPosition="20.0" yPosition="20.0">
+      <Fields>
+        <Field name="name" type="String" visibility="publıc"/>
+        <Field name="surname" type="String" visibility="publıc"/>
+        <Field name="IdentityNo" type="String" visibility="publıc"/>
+        <Field name="Profession" type="String" visibility="publıc"/>
+        <Field name="Gender" type="String" visibility="publıc"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="publıc">
+          <Argument type="String" name="name"/>
+          <Argument type="String" name="surname"/>
+          <Argument type="String" name="TC"/>
+          <Argument type="String" name="Profession"/>
+          <Argument type="String" name="Gender"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="toString" returnType="String" visibility="publıc"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>

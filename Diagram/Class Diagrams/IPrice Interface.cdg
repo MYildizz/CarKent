@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="IPrice">
+  <ClassDiagramComponents>
+    <Interface name="IPrice" package="Common_Classes" visibility="publıc" xPosition="20.0" yPosition="20.0">
+      <Methods>
+        <Method name="getPrice" returnType="double" visibility="package"/>
+      </Methods>
+    </Interface>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>

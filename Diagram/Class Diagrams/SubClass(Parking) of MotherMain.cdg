@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Park">
+  <ClassDiagramComponents>
+    <Class name="Jip" package="Park" visibility="publıc" xPosition="6.0" yPosition="96.0">
+      <Fields>
+        <Field name="totalJip" type="int" visibility="package" isStatic="true"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="publıc">
+          <Argument type="String" name="ID"/>
+          <Argument type="String" name="name"/>
+          <Argument type="String" name="surname"/>
+          <Argument type="String" name="TC"/>
+          <Argument type="String" name="Profession"/>
+          <Argument type="String" name="Gender"/>
+          <Argument type="String" name="CarParkingArea"/>
+          <Argument type="boolean" name="SpecialCondition"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getTotalJip" returnType="int" visibility="publıc" isStatic="true"/>
+        <Method name="getPrice" returnType="double" visibility="publıc"/>
+        <Method name="toString" returnType="String" visibility="publıc"/>
+      </Methods>
+    </Class>
+    <Class name="Lorry" package="Park" visibility="publıc" xPosition="864.0" yPosition="96.0">
+      <Fields>
+        <Field name="totalLorry" type="int" visibility="package" isStatic="true"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="publıc">
+          <Argument type="String" name="ID"/>
+          <Argument type="String" name="name"/>
+          <Argument type="String" name="surname"/>
+          <Argument type="String" name="TC"/>
+          <Argument type="String" name="Profession"/>
+          <Argument type="String" name="Gender"/>
+          <Argument type="String" name="CarParkingArea"/>
+          <Argument type="boolean" name="SpecialCondition"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getTotalLorry" returnType="int" visibility="publıc" isStatic="true"/>
+        <Method name="getPrice" returnType="double" visibility="publıc"/>
+        <Method name="toString" returnType="String" visibility="publıc"/>
+      </Methods>
+    </Class>
+    <Class name="MotoBycycle" package="Park" visibility="publıc" xPosition="1239.0" yPosition="518.0">
+      <Fields>
+        <Field name="totalMoto" type="int" visibility="package" isStatic="true"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="publıc">
+          <Argument type="String" name="ID"/>
+          <Argument type="String" name="name"/>
+          <Argument type="String" name="surname"/>
+          <Argument type="String" name="TC"/>
+          <Argument type="String" name="Profession"/>
+          <Argument type="String" name="Gender"/>
+          <Argument type="String" name="CarParkingArea"/>
+          <Argument type="boolean" name="SpecialCondition"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getTotalMoto" returnType="int" visibility="publıc" isStatic="true"/>
+        <Method name="getPrice" returnType="double" visibility="publıc"/>
+        <Method name="toString" returnType="String" visibility="publıc"/>
+      </Methods>
+    </Class>
+    <Class name="Parking" package="Park" visibility="publıc" xPosition="292.0" yPosition="338.0">
+      <Fields>
+        <Field name="totalCar" type="int" visibility="prıvate" isStatic="true"/>
+        <Field name="CarParkingArea" type="String" visibility="prıvate"/>
+        <Field name="ParkMale" type="int" visibility="protected" isStatic="true"/>
+        <Field name="ParkFemale" type="int" visibility="protected" isStatic="true"/>
+        <Field name="Price" type="double" visibility="protected"/>
+        <Field name="SpecialCondition" type="boolean" visibility="protected"/>
+        <Field name="Hour" type="int" visibility="protected"/>
+        <Field name="Minute" type="int" visibility="protected"/>
+        <Field name="Enteringtime" type="String" visibility="protected"/>
+        <Field name="ExitingTime" type="String" visibility="protected"/>
+        <Field name="DifferenceTime" type="int" visibility="protected"/>
+        <Field name="person" type="Personality" visibility="protected"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="publıc">
+          <Argument type="String" name="ID"/>
+          <Argument type="String" name="name"/>
+          <Argument type="String" name="surname"/>
+          <Argument type="String" name="TC"/>
+          <Argument type="String" name="Profession"/>
+          <Argument type="String" name="Gender"/>
+          <Argument type="String" name="CarParkingArea"/>
+          <Argument type="boolean" name="SpecialCondition"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getPerson" returnType="Personality" visibility="publıc"/>
+        <Method name="EnteringTime" returnType="void" visibility="publıc"/>
+        <Method name="getEnteringtime" returnType="String" visibility="publıc"/>
+        <Method name="CalcTotalTime" returnType="int" visibility="publıc"/>
+        <Method name="isSpecialCondition" returnType="boolean" visibility="publıc"/>
+        <Method name="getExitingTime" returnType="String" visibility="publıc"/>
+        <Method name="statisticsUsed" returnType="String" visibility="publıc"/>
+        <Method name="staticticOfAdvertisement" returnType="String" visibility="protected"/>
+        <Method name="getPrice" returnType="double" visibility="publıc"/>
+        <Method name="CurrentMoney" returnType="double" visibility="publıc"/>
+        <Method name="toString" returnType="String" visibility="publıc"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <IsRelation name="is" source="Park.Lorry" target="Park.Parking"/>
+    <IsRelation name="is" source="Park.Jip" target="Park.Parking"/>
+    <IsRelation name="is" source="Park.MotoBycycle" target="Park.Parking"/>
+  </ClassDiagramRelations>
+</ClassDiagram>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="MotherMain">
+  <ClassDiagramComponents>
+    <Class name="MotherMain" package="Common_Classes" visibility="publıc" isAbstract="true" xPosition="20.0" yPosition="20.0">
+      <Fields>
+        <Field name="ID" type="String" visibility="protected"/>
+        <Field name="totalMoney" type="double" visibility="publıc" isStatic="true"/>
+        <Field name="totalDollarMoney" type="double" visibility="publıc" isStatic="true"/>
+        <Field name="totalEuroMoney" type="double" visibility="publıc" isStatic="true"/>
+        <Field name="totalMale" type="int" visibility="protected" isStatic="true"/>
+        <Field name="totalFemale" type="int" visibility="protected" isStatic="true"/>
+        <Field name="cost" type="double" visibility="protected" isStatic="true"/>
+        <Field name="Tax" type="double" visibility="publıc" isStatic="true"/>
+        <Field name="Electric" type="double" visibility="publıc" isStatic="true"/>
+        <Field name="ParkingCounter" type="int" visibility="protected" isStatic="true"/>
+        <Field name="CleaningCounter" type="int" visibility="protected" isStatic="true"/>
+        <Field name="RepairCounter" type="int" visibility="protected" isStatic="true"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="publıc"/>
+        <Constructor visibility="publıc">
+          <Argument type="String" name="ID"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getID" returnType="String" visibility="publıc"/>
+        <Method name="toString" returnType="String" visibility="publıc"/>
+        <Method name="getTotalMoney" returnType="double" visibility="publıc" isStatic="true"/>
+        <Method name="getTotalDollarMoney" returnType="double" visibility="publıc" isStatic="true"/>
+        <Method name="getTotalEuroMoney" returnType="double" visibility="publıc" isStatic="true"/>
+        <Method name="statisticsUsed" returnType="String" visibility="publıc" isAbstract="true"/>
+        <Method name="staticticOfAdvertisement" returnType="String" visibility="protected" isAbstract="true"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>

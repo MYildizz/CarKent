@@ -1,0 +1,62 @@
+﻿    Parking Customer 
+ Plate : 1
+ CarParkingArea : A28L
+ Enteringtime : 20:07:35
+ Name : 1111
+ Surname : 1
+ TC : 1
+ Labour :TEACHER
+ Gender : Male
+**********************************************
+    Parking Customer 
+ Plate : 11
+ CarParkingArea : A28L
+ Enteringtime : 20:09:10
+ Name : yeni
+ Surname : müsteri
+ TC : geldi
+ Labour :TEACHER
+ Gender : Male
+**********************************************
+    Parking Customer 
+ Plate : asdasd
+ CarParkingArea : A28L
+ Enteringtime : 20:12:40
+ Name : asd
+ Surname : asd
+ TC : asd
+ Labour :TEACHER
+ Gender : Male
+**********************************************
+    Parking Customer 
+ Plate : 1
+ CarParkingArea : b12
+ Enteringtime : 20:12:53
+ Name : 1
+ Surname : 1
+ TC : 11
+ Labour :TEACHER
+ Gender : Male
+**********************************************
+    Parking Customer 
+ Plate : 1
+ CarParkingArea : A23L
+ Enteringtime : 20:13:49
+ Name : gurkan
+ Surname : altintas
+ TC : 1
+ Labour :TEACHER
+ Gender : Male
+**********************************************
+      Cleaning Customer 
+ Plate : 1
+ Name : 1
+ Surname : 1
+ TC : 1
+ Labour :DOCTOR
+ Gender : MALE
+Vehicle Type : Automobile
+Total Cleaning1
+Total count of Male Customers : 1
+Total count of Female Customer : 0
+**********************************************

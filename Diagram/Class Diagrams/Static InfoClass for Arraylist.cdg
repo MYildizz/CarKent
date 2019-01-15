@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="InfoClass">
+  <ClassDiagramComponents>
+    <Class name="InfoClass" package="GUI" visibility="publıc" xPosition="20.0" yPosition="20.0">
+      <Fields>
+        <Field name="infoCustomer" type="ArrayList&lt;MotherMain&gt;" visibility="publıc" isStatic="true"/>
+        <Field name="buttons" type="ArrayList&lt;JButton&gt;" visibility="publıc" isStatic="true"/>
+        <Field name="parking" type="ArrayList&lt;Parking&gt;" visibility="publıc" isStatic="true"/>
+        <Field name="cleaning" type="ArrayList&lt;Cleaning&gt;" visibility="publıc" isStatic="true"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="ParkAdd" returnType="void" visibility="publıc" isStatic="true">
+          <Argument type="Parking" name="park"/>
+          <Argument type="JButton" name="a"/>
+        </Method>
+        <Method name="ParkRemove" returnType="void" visibility="publıc" isStatic="true">
+          <Argument type="String" name="plaka"/>
+        </Method>
+        <Method name="add" returnType="void" visibility="publıc" isStatic="true">
+          <Argument type="MotherMain" name="motherMain"/>
+        </Method>
+        <Method name="FindIndex" returnType="int" visibility="publıc" isStatic="true">
+          <Argument type="String" name="plaka"/>
+        </Method>
+        <Method name="remove" returnType="void" visibility="publıc" isStatic="true">
+          <Argument type="String" name="plaka"/>
+        </Method>
+        <Method name="search" returnType="MotherMain" visibility="publıc" isStatic="true">
+          <Argument type="String" name="plaka"/>
+        </Method>
+        <Method name="ShowAll" returnType="String" visibility="publıc" isStatic="true"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>
