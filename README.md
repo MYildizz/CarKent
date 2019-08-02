@@ -1,7 +1,7 @@
 # **CarKent** <br/>
 
 #### - Carkent is our finishing project in Object Oriented Programming in java at the University.
-#### - This program is a company's admin control system that provides car parking service , cleaning service and repairing service.
+#### - This program is a company's admin control system that provides car parking service , cleaning service , repairing service and financial management.
 #### - Uml diagram can be view to detailed examine about program <hr/>
 - **Login screen requesting user name and password**
 
